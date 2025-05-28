@@ -11,5 +11,6 @@ The workflow is the following:
 6. base_strategy.ipnyb and macd_strategy.ipnyb (take the daily_entry_df.csv and BTC-USD.csv file as inputs and execute the strategies)
 
 Remarks:
+- The folders are not uploaded due to them being too large, but the final, pre-processed data that was used for the strategies is uploaded ('daily_entry_df.csv)
 - The BTC-USD.csv file was collected using the yfinance package of Python, but that has become subscription-based since then, so I am using the csv file instead of the API call
 - The 'windowed_data_track_1' folder was used for visualization in base_strategy.ipnyb in saves the relevant data from the windows
